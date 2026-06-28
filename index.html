@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的猫咪小窝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="hero">
+    <h1 id="heroTitle">加载中...</h1>
+    <p id="heroSubtitle"></p>
+  </header>
+
+  <section class="profile" id="profileSection">
+    <div class="avatar"><img id="avatarImg" src="" alt=""></div>
+    <div class="info">
+      <h2 id="petName">加载中...</h2>
+      <ul id="petInfo"></ul>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>📸 萌照墙</h2>
+    <div class="photo-grid" id="photoGrid">
+      <p>加载中...</p>
+    </div>
+  </section>
+
+  <section class="schedule">
+    <h2>⏰ 每日作息</h2>
+    <div class="timeline" id="timeline">
+      <p>加载中...</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>💌 想撸猫？留言给我</h2>
+    <form id="msgForm">
+      <input type="text" id="name" placeholder="你的名字" maxlength="50" required>
+      <textarea id="message" placeholder="写点什么吧..." rows="3" maxlength="1000" required></textarea>
+      <button type="submit">发送 🐾</button>
+    </form>
+    <div class="msg-list" id="messages"></div>
+  </section>
+
+  <footer>
+    <p id="footerText">加载中...</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
