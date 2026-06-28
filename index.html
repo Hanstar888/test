@@ -7,45 +7,80 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero" id="hero">
-    <h1 id="heroTitle">加载中...</h1>
-    <p id="heroSubtitle"></p>
+  <header class="hero">
+    <h1>🐱 欢迎来到小橘的主页</h1>
+    <p>一只可爱橘猫的日常</p>
   </header>
 
-  <section class="profile" id="profileSection">
-    <div class="avatar"><img id="avatarImg" src="" alt=""></div>
+  <section class="profile">
+    <div class="avatar"><img src="https://cataas.com/cat?width=300&height=300" alt="小橘"></div>
     <div class="info">
-      <h2 id="petName">加载中...</h2>
-      <ul id="petInfo"></ul>
+      <h2>小橘</h2>
+      <ul>
+        <li><span>品种：</span>中华田园猫（橘猫）</li>
+        <li><span>年龄：</span>2岁</li>
+        <li><span>性别：</span>小公主</li>
+        <li><span>爱好：</span>吃罐头、晒太阳、抓沙发</li>
+      </ul>
     </div>
   </section>
 
   <section class="gallery">
     <h2>📸 萌照墙</h2>
-    <div class="photo-grid" id="photoGrid">
-      <p>加载中...</p>
+    <div class="photo-grid">
+      <div class="photo-card">
+        <div class="emoji">😺</div>
+        <p>卖萌时刻</p>
+      </div>
+      <div class="photo-card">
+        <div class="emoji">😴</div>
+        <p>午睡中...</p>
+      </div>
+      <div class="photo-card">
+        <div class="emoji">🐟</div>
+        <p>开饭啦！</p>
+      </div>
+      <div class="photo-card">
+        <div class="emoji">🧶</div>
+        <p>玩毛线球</p>
+      </div>
+      <div class="photo-card">
+        <div class="emoji">📦</div>
+        <p>占领纸箱</p>
+      </div>
+      <div class="photo-card">
+        <div class="emoji">🪟</div>
+        <p>窗外发呆</p>
+      </div>
     </div>
   </section>
 
   <section class="schedule">
     <h2>⏰ 每日作息</h2>
-    <div class="timeline" id="timeline">
-      <p>加载中...</p>
+    <div class="timeline">
+      <div class="item"><strong>06:00</strong> 叫铲屎官起床</div>
+      <div class="item"><strong>07:00</strong> 早餐（必须加罐头）</div>
+      <div class="item"><strong>09:00-12:00</strong> 晒太阳 + 回笼觉</div>
+      <div class="item"><strong>12:30</strong> 午餐</div>
+      <div class="item"><strong>14:00-17:00</strong> 巡视领地</div>
+      <div class="item"><strong>18:00</strong> 晚餐</div>
+      <div class="item"><strong>20:00</strong> 跑酷时间</div>
+      <div class="item"><strong>22:00</strong> 陪铲屎官追剧</div>
     </div>
   </section>
 
   <section class="contact">
     <h2>💌 想撸猫？留言给我</h2>
     <form id="msgForm">
-      <input type="text" id="name" placeholder="你的名字" maxlength="50" required>
-      <textarea id="message" placeholder="写点什么吧..." rows="3" maxlength="1000" required></textarea>
+      <input type="text" id="name" placeholder="你的名字" required>
+      <textarea id="message" placeholder="写点什么吧..." rows="3" required></textarea>
       <button type="submit">发送 🐾</button>
     </form>
-    <div class="msg-list" id="messages"></div>
+    <div id="messages" class="msg-list"></div>
   </section>
 
   <footer>
-    <p id="footerText">加载中...</p>
+    <p>© 2026 小橘的主页 | 用 💛 和 🐟 建成</p>
   </footer>
 
   <script src="app.js"></script>
